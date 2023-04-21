@@ -8,6 +8,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// VarpType: Variable (player) definitions (client variables)
 @OriginalClass("client!lc")
 public final class VarpType {
 

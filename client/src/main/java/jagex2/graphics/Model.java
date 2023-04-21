@@ -9,6 +9,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// Model: 3D model format
 @OriginalClass("client!eb")
 public final class Model extends Hashable {
 
@@ -2190,6 +2191,7 @@ public final class Model extends Hashable {
 		}
 	}
 
+	// Metadata: Model metadata to index into the vertex/face/info arrays
 	@OriginalClass("client!l")
 	public static final class Metadata {
 
@@ -2242,6 +2244,7 @@ public final class Model extends Hashable {
 		public int anInt591;
 	}
 
+	// VertexNormal: Normal vector for a vertex, used for lighting
 	@OriginalClass("client!n")
 	public static final class VertexNormal {
 

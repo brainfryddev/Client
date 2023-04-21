@@ -10,8 +10,9 @@ import org.openrs2.deob.annotation.Pc;
 
 import java.util.Random;
 
+// PixFont: Font format storing each character as a mask
 @OriginalClass("client!jb")
-public final class BitmapFont extends Draw2D {
+public final class PixFont extends Draw2D {
 
 	@OriginalMember(owner = "client!jb", name = "K", descriptor = "[I")
 	private static final int[] anIntArray185 = new int[256];
@@ -73,7 +74,7 @@ public final class BitmapFont extends Draw2D {
 	}
 
 	@OriginalMember(owner = "client!jb", name = "<init>", descriptor = "(Lclient!ub;Ljava/lang/String;I)V")
-	public BitmapFont(@OriginalArg(0) JagFile arg0, @OriginalArg(1) String arg1, @OriginalArg(2) int arg2) {
+	public PixFont(@OriginalArg(0) JagFile arg0, @OriginalArg(1) String arg1, @OriginalArg(2) int arg2) {
 		try {
 			@Pc(71) Packet local71 = new Packet(363, arg0.method536(arg1 + ".dat", null, (byte) 2));
 			@Pc(81) Packet local81 = new Packet(363, arg0.method536("index.dat", null, (byte) 2));

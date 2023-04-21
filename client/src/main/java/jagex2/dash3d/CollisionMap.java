@@ -7,7 +7,7 @@ import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
 @OriginalClass("client!ec")
-public final class WorldCollision {
+public final class CollisionMap {
 
 	@OriginalMember(owner = "client!ec", name = "b", descriptor = "I")
 	private int anInt379;
@@ -40,7 +40,7 @@ public final class WorldCollision {
 	public final int[][] anIntArrayArray10;
 
 	@OriginalMember(owner = "client!ec", name = "<init>", descriptor = "(III)V")
-	public WorldCollision(@OriginalArg(0) int arg0, @OriginalArg(1) int arg1, @OriginalArg(2) int arg2) {
+	public CollisionMap(@OriginalArg(0) int arg0, @OriginalArg(1) int arg1, @OriginalArg(2) int arg2) {
 		try {
 			while (arg1 >= 0) {
 				this.aBoolean88 = !this.aBoolean88;

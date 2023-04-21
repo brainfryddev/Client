@@ -8,6 +8,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// Sequence Base: Animation skeleton
 @OriginalClass("client!f")
 public final class SeqBase {
 

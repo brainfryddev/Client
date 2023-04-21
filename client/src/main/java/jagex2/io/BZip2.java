@@ -5,6 +5,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// LibBZip2 port
 public final class BZip2 {
 
 	@OriginalMember(owner = "client!rb", name = "a", descriptor = "Lclient!sb;")

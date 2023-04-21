@@ -11,6 +11,7 @@ import org.openrs2.deob.annotation.Pc;
 import java.awt.*;
 import java.awt.image.PixelGrabber;
 
+// Pix24: Image format storing pixels as 24-bit RGB values (taken from palette)
 @OriginalClass("client!hb")
 public final class Pix24 extends Draw2D {
 

@@ -1,4 +1,4 @@
-package jagex2.dash3d;
+package jagex2.dash3d.type;
 
 import jagex2.client.Signlink;
 import org.openrs2.deob.annotation.OriginalArg;

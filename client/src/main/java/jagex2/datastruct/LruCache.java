@@ -6,6 +6,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// LruCache: A least-recently-used cache.
 @OriginalClass("client!s")
 public final class LruCache {
 

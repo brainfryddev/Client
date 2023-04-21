@@ -6,6 +6,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// Stack: A stack (FIFO) of Hashables
 @OriginalClass("client!pb")
 public final class Stack {
 

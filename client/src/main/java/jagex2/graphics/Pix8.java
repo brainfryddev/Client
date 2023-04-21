@@ -8,6 +8,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// Pix8: Image format storing pixels as 8-bit indices into a palette
 @OriginalClass("client!ib")
 public final class Pix8 extends Draw2D {
 

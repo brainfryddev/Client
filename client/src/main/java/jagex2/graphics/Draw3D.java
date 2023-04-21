@@ -7,6 +7,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// Draw3D: Scanline rasterization
 @OriginalClass("client!gb")
 public final class Draw3D extends Draw2D {
 

@@ -6,6 +6,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// LinkList: A doubly-linked list of Linkable objects
 @OriginalClass("client!ob")
 public final class LinkList {
 

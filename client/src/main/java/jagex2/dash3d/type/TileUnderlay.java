@@ -1,4 +1,4 @@
-package jagex2.dash3d;
+package jagex2.dash3d.type;
 
 import org.openrs2.deob.annotation.OriginalArg;
 import org.openrs2.deob.annotation.OriginalClass;

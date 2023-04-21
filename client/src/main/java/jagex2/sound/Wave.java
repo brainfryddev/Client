@@ -7,6 +7,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// Wave: Synthesizes sounds into a Wave format
 @OriginalClass("client!yb")
 public final class Wave {
 

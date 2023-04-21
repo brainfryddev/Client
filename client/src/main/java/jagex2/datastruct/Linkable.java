@@ -3,6 +3,7 @@ package jagex2.datastruct;
 import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 
+// Linkable: A node in a linked list
 @OriginalClass("client!u")
 public class Linkable {
 

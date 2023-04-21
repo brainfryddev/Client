@@ -9,6 +9,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// IdkType: IdentityKit definitions (player models)
 @OriginalClass("client!gc")
 public final class IdkType {
 

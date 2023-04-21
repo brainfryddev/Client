@@ -1,4 +1,4 @@
-package jagex2.dash3d;
+package jagex2.dash3d.entity;
 
 import jagex2.datastruct.Linkable;
 import org.openrs2.deob.annotation.OriginalClass;

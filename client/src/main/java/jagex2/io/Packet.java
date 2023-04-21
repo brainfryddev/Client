@@ -10,6 +10,7 @@ import org.openrs2.deob.annotation.Pc;
 
 import java.math.BigInteger;
 
+// Packet: Buffer for reading and writing data
 @OriginalClass("client!kb")
 public final class Packet extends Hashable {
 

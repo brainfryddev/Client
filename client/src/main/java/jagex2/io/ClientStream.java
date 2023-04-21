@@ -12,6 +12,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
+// ClientStream: client socket stream
 @OriginalClass("client!d")
 public final class ClientStream implements Runnable {
 

@@ -5,6 +5,7 @@ import org.openrs2.deob.annotation.OriginalArg;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// JString: Jagex String helper class
 public final class JString {
 
 	@OriginalMember(owner = "client!vb", name = "a", descriptor = "Z")

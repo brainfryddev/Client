@@ -10,6 +10,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// SpotAnimType: Spot animation definitions (graphics that are not bound to an entity)
 @OriginalClass("client!kc")
 public final class SpotAnimType {
 

@@ -9,6 +9,7 @@ import org.openrs2.deob.annotation.Pc;
 import java.awt.*;
 import java.awt.image.*;
 
+// PixMap: Maps (draws) Pix classes to the screen
 @OriginalClass("client!qb")
 public final class PixMap implements ImageProducer, ImageObserver {
 

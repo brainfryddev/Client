@@ -1,4 +1,4 @@
-package jagex2.dash3d;
+package jagex2.dash3d.entity;
 
 import jagex2.client.Client;
 import jagex2.client.Signlink;

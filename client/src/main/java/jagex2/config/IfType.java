@@ -3,7 +3,7 @@ package jagex2.config;
 import jagex2.client.Signlink;
 import jagex2.datastruct.JString;
 import jagex2.datastruct.LruCache;
-import jagex2.graphics.BitmapFont;
+import jagex2.graphics.PixFont;
 import jagex2.graphics.Model;
 import jagex2.graphics.Pix24;
 import jagex2.io.JagFile;
@@ -13,6 +13,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// IfType: Component definitions that build interfaces for modals, chatboxes, etc.
 @OriginalClass("client!hc")
 public final class IfType {
 
@@ -138,7 +139,7 @@ public final class IfType {
 	public boolean aBoolean113;
 
 	@OriginalMember(owner = "client!hc", name = "O", descriptor = "Lclient!jb;")
-	public BitmapFont aClass1_Sub3_Sub2_Sub4_5;
+	public PixFont aClass1_Sub3_Sub2_Sub4_5;
 
 	@OriginalMember(owner = "client!hc", name = "P", descriptor = "Ljava/lang/String;")
 	public String aString20;
@@ -195,7 +196,7 @@ public final class IfType {
 	public String aString24;
 
 	@OriginalMember(owner = "client!hc", name = "a", descriptor = "(Lclient!ub;[Lclient!jb;ILclient!ub;)V")
-	public static void method331(@OriginalArg(0) JagFile arg0, @OriginalArg(1) BitmapFont[] arg1, @OriginalArg(2) int arg2, @OriginalArg(3) JagFile arg3) {
+	public static void method331(@OriginalArg(0) JagFile arg0, @OriginalArg(1) PixFont[] arg1, @OriginalArg(2) int arg2, @OriginalArg(3) JagFile arg3) {
 		try {
 			@Pc(5) int local5 = 17 / arg2;
 			aClass35_6 = new LruCache((byte) 0, 50000);

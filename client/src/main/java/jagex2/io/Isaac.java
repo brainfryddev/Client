@@ -6,6 +6,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// Isaac: https://en.wikipedia.org/wiki/ISAAC_(cipher)
 @OriginalClass("client!tb")
 public final class Isaac {
 

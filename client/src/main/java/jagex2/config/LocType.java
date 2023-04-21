@@ -10,6 +10,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// LocType: Location definitions (e.g. trees, rocks, doors, etc.)
 @OriginalClass("client!ac")
 public final class LocType {
 

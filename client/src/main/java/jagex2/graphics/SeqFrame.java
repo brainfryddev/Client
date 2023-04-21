@@ -8,6 +8,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// Sequence Frame: Animation frame
 @OriginalClass("client!g")
 public final class SeqFrame {
 

@@ -3,6 +3,7 @@ package jagex2.datastruct;
 import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 
+// Hashable: A node that can be associated with a key inside Hashtable, LruCache, and Stack
 @OriginalClass("client!db")
 public class Hashable extends Linkable {
 

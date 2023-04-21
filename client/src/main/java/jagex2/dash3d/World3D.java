@@ -1,6 +1,8 @@
 package jagex2.dash3d;
 
 import jagex2.client.Signlink;
+import jagex2.dash3d.entity.Entity;
+import jagex2.dash3d.type.*;
 import jagex2.datastruct.LinkList;
 import jagex2.graphics.Draw2D;
 import jagex2.graphics.Draw3D;
@@ -10,6 +12,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// World3D: Renders the world into 3D space
 @OriginalClass("client!r")
 public final class World3D {
 

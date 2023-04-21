@@ -2,6 +2,9 @@ package jagex2.client;
 
 import jagex2.config.*;
 import jagex2.dash3d.*;
+import jagex2.dash3d.entity.*;
+import jagex2.dash3d.type.LocSpawned;
+import jagex2.dash3d.type.LocTemporary;
 import jagex2.datastruct.JString;
 import jagex2.datastruct.LinkList;
 import jagex2.graphics.*;
@@ -485,16 +488,16 @@ public final class Client extends GameShell {
 	private int anInt276;
 
 	@OriginalMember(owner = "client!client", name = "Gf", descriptor = "Lclient!jb;")
-	private BitmapFont aClass1_Sub3_Sub2_Sub4_1;
+	private PixFont aClass1_Sub3_Sub2_Sub4_1;
 
 	@OriginalMember(owner = "client!client", name = "Hf", descriptor = "Lclient!jb;")
-	private BitmapFont aClass1_Sub3_Sub2_Sub4_2;
+	private PixFont aClass1_Sub3_Sub2_Sub4_2;
 
 	@OriginalMember(owner = "client!client", name = "If", descriptor = "Lclient!jb;")
-	private BitmapFont aClass1_Sub3_Sub2_Sub4_3;
+	private PixFont aClass1_Sub3_Sub2_Sub4_3;
 
 	@OriginalMember(owner = "client!client", name = "Jf", descriptor = "Lclient!jb;")
-	private BitmapFont aClass1_Sub3_Sub2_Sub4_4;
+	private PixFont aClass1_Sub3_Sub2_Sub4_4;
 
 	@OriginalMember(owner = "client!client", name = "Kf", descriptor = "I")
 	private int anInt277;
@@ -1046,7 +1049,7 @@ public final class Client extends GameShell {
 	private final int[] anIntArray61 = new int[151];
 
 	@OriginalMember(owner = "client!client", name = "af", descriptor = "[Lclient!ec;")
-	private WorldCollision[] aClass9Array1 = new WorldCollision[4];
+	private CollisionMap[] aClass9Array1 = new CollisionMap[4];
 
 	@OriginalMember(owner = "client!client", name = "cf", descriptor = "[Lclient!hb;")
 	private Pix24[] aClass1_Sub3_Sub2_Sub2Array5 = new Pix24[20];
@@ -1740,7 +1743,7 @@ public final class Client extends GameShell {
 	private void method80(@OriginalArg(0) int arg0) {
 		try {
 			if (arg0 > 0 && this.anInt210 != 0) {
-				@Pc(9) BitmapFont local9 = this.aClass1_Sub3_Sub2_Sub4_2;
+				@Pc(9) PixFont local9 = this.aClass1_Sub3_Sub2_Sub4_2;
 				@Pc(11) int local11 = 0;
 				if (this.anInt267 != 0) {
 					local11 = 1;
@@ -4583,7 +4586,7 @@ public final class Client extends GameShell {
 								}
 							}
 						} else if (local84.anInt472 != 3) {
-							@Pc(456) BitmapFont local456;
+							@Pc(456) PixFont local456;
 							if (local84.anInt472 == 4) {
 								local456 = local84.aClass1_Sub3_Sub2_Sub4_5;
 								local167 = local84.anInt485;
@@ -6634,10 +6637,10 @@ public final class Client extends GameShell {
 				}
 			}
 			this.aClass39_1 = this.method98("title screen", this.anIntArray38[1], "title", 10, 0);
-			this.aClass1_Sub3_Sub2_Sub4_1 = new BitmapFont(this.aClass39_1, "p11", 530);
-			this.aClass1_Sub3_Sub2_Sub4_2 = new BitmapFont(this.aClass39_1, "p12", 530);
-			this.aClass1_Sub3_Sub2_Sub4_3 = new BitmapFont(this.aClass39_1, "b12", 530);
-			this.aClass1_Sub3_Sub2_Sub4_4 = new BitmapFont(this.aClass39_1, "q8", 530);
+			this.aClass1_Sub3_Sub2_Sub4_1 = new PixFont(this.aClass39_1, "p11", 530);
+			this.aClass1_Sub3_Sub2_Sub4_2 = new PixFont(this.aClass39_1, "p12", 530);
+			this.aClass1_Sub3_Sub2_Sub4_3 = new PixFont(this.aClass39_1, "b12", 530);
+			this.aClass1_Sub3_Sub2_Sub4_4 = new PixFont(this.aClass39_1, "q8", 530);
 			this.method189((byte) 5);
 			this.method109(0);
 			@Pc(255) JagFile local255 = this.method98("config", this.anIntArray38[2], "config", 15, 0);
@@ -6651,7 +6654,7 @@ public final class Client extends GameShell {
 			this.anIntArrayArrayArray3 = new int[4][105][105];
 			this.aClass33_1 = new World3D(415, this.anIntArrayArrayArray3, 104, 4, 104);
 			for (@Pc(346) int local346 = 0; local346 < 4; local346++) {
-				this.aClass9Array1[local346] = new WorldCollision(104, -708, 104);
+				this.aClass9Array1[local346] = new CollisionMap(104, -708, 104);
 			}
 			this.aClass1_Sub3_Sub2_Sub2_6 = new Pix24(512, 512);
 			this.method74(true, "Unpacking media", 75);
@@ -6786,7 +6789,7 @@ public final class Client extends GameShell {
 				Wave.method561(local1119, 473);
 			}
 			this.method74(true, "Unpacking interfaces", 92);
-			@Pc(1150) BitmapFont[] local1150 = new BitmapFont[] { this.aClass1_Sub3_Sub2_Sub4_1, this.aClass1_Sub3_Sub2_Sub4_2, this.aClass1_Sub3_Sub2_Sub4_3, this.aClass1_Sub3_Sub2_Sub4_4 };
+			@Pc(1150) PixFont[] local1150 = new PixFont[] { this.aClass1_Sub3_Sub2_Sub4_1, this.aClass1_Sub3_Sub2_Sub4_2, this.aClass1_Sub3_Sub2_Sub4_3, this.aClass1_Sub3_Sub2_Sub4_4 };
 			IfType.method331(local277, local1150, 30, local266);
 			this.method74(true, "Preparing game engine", 97);
 			@Pc(1166) int local1166;
@@ -10213,7 +10216,7 @@ public final class Client extends GameShell {
 			} else if (this.anInt280 != -1) {
 				this.method120(0, 0, 38682, IfType.aClass15Array1[this.anInt280], 0);
 			} else if (this.anInt289 == -1) {
-				@Pc(135) BitmapFont local135 = this.aClass1_Sub3_Sub2_Sub4_2;
+				@Pc(135) PixFont local135 = this.aClass1_Sub3_Sub2_Sub4_2;
 				@Pc(137) int local137 = 0;
 				Draw2D.method356(77, 0, 463, 789, 0);
 				for (@Pc(145) int local145 = 0; local145 < 100; local145++) {

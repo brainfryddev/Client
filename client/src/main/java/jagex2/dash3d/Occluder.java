@@ -3,6 +3,7 @@ package jagex2.dash3d;
 import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 
+// Occluder: Occludes (hides) tiles behind it
 @OriginalClass("client!m")
 public final class Occluder {
 

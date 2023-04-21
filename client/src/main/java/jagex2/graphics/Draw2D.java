@@ -7,6 +7,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// Draw2D: 2D screen drawing
 @OriginalClass("client!fb")
 public class Draw2D extends Hashable {
 

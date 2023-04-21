@@ -13,6 +13,7 @@ import org.openrs2.deob.annotation.OriginalClass;
 import org.openrs2.deob.annotation.OriginalMember;
 import org.openrs2.deob.annotation.Pc;
 
+// ObjType: Object definitions (items)
 @OriginalClass("client!cc")
 public final class ObjType {
 
