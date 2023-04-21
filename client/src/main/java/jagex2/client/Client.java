@@ -30,12 +30,8 @@ public final class Client extends GameShell {
 	public static final byte aByte13 = 15;
 	@OriginalMember(owner = "client!client", name = "ue", descriptor = "Ljava/math/BigInteger;")
 	public static final BigInteger aBigInteger1 = new BigInteger("58778699976184461502525193738213253649000149147835990136706041084440742975821");
-	@OriginalMember(owner = "client!client", name = "Oe", descriptor = "[[I")
-	public static final int[][] anIntArrayArray4 = new int[][] { { 6798, 107, 10283, 16, 4797, 7744, 5799, 4634, 33697, 22433, 2983, 54193 }, { 8741, 12, 64030, 43162, 7735, 8404, 1701, 38430, 24094, 10153, 56621, 4783, 1341, 16578, 35003, 25239 }, { 25238, 8742, 12, 64030, 43162, 7735, 8404, 1701, 38430, 24094, 10153, 56621, 4783, 1341, 16578, 35003 }, { 4626, 11146, 6439, 12, 4758, 10270 }, { 4550, 4537, 5681, 5673, 5790, 6806, 8076, 4574 } };
 	@OriginalMember(owner = "client!client", name = "fh", descriptor = "Ljava/math/BigInteger;")
 	public static final BigInteger aBigInteger2 = new BigInteger("7162900525229798032761816791230527296329313291232324290237849263501208207972894053929065636522363163621000728841182238772712427862772219676577293600221789");
-	@OriginalMember(owner = "client!client", name = "qh", descriptor = "[I")
-	public static final int[] anIntArray70 = new int[] { 9104, 10275, 7595, 3610, 7975, 8526, 918, 38802, 24466, 10145, 58654, 5027, 1457, 16565, 34991, 25486 };
 	@OriginalMember(owner = "client!client", name = "hi", descriptor = "B")
 	public static final byte aByte16 = 3;
 	@OriginalMember(owner = "client!client", name = "od", descriptor = "[I")
@@ -6230,9 +6226,9 @@ public final class Client extends GameShell {
 					@Pc(241) Model local241 = new Model(0, local209, local211);
 					for (@Pc(243) int local243 = 0; local243 < 5; local243++) {
 						if (this.anIntArray33[local243] != 0) {
-							local241.method237(anIntArrayArray4[local243][0], anIntArrayArray4[local243][this.anIntArray33[local243]]);
+							local241.method237(PlayerEntity.anIntArrayArray4[local243][0], PlayerEntity.anIntArrayArray4[local243][this.anIntArray33[local243]]);
 							if (local243 == 1) {
-								local241.method237(anIntArray70[0], anIntArray70[this.anIntArray33[local243]]);
+								local241.method237(PlayerEntity.anIntArray70[0], PlayerEntity.anIntArray70[this.anIntArray33[local243]]);
 							}
 						}
 					}
@@ -6513,12 +6509,12 @@ public final class Client extends GameShell {
 				if (local116 == 0) {
 					local121--;
 					if (local121 < 0) {
-						local121 = anIntArrayArray4[local112].length - 1;
+						local121 = PlayerEntity.anIntArrayArray4[local112].length - 1;
 					}
 				}
 				if (local116 == 1) {
 					local121++;
-					if (local121 >= anIntArrayArray4[local112].length) {
+					if (local121 >= PlayerEntity.anIntArrayArray4[local112].length) {
 						local121 = 0;
 					}
 				}
